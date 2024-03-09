@@ -23,6 +23,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="android:screenOrientation"
+        /> <!--  this will force the display to display according to the device orientation   -->
+
     </application>
 
 </manifest>
